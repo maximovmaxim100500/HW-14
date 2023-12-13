@@ -1,4 +1,4 @@
-public class Transport {
+abstract class Transport {
     private String modelName;
     private int wheelsCount;
 
