@@ -1,10 +1,12 @@
-abstract class Transport implements PossibilitiesServiceStation{
+abstract class Transport implements PossibilitiesServiceStation {
     private String modelName;
     private int wheelsCount;
+
     public Transport(String modelName, int wheelsCount) {
         this.modelName = modelName;
         this.wheelsCount = wheelsCount;
     }
+
     public String getModelName() {
         return modelName;
     }
@@ -12,13 +14,4 @@ abstract class Transport implements PossibilitiesServiceStation{
     public int getWheelsCount() {
         return wheelsCount;
     }
-    /*public void updateTyre() {
-        System.out.println("Меняем покрышку");
-    }
-    public void checkEngine() {
-        System.out.println("Проверяем двигатель");
-    }
-    public void checkTrailer() {
-        System.out.println("Проверяем прицеп");
-    }*/
 }

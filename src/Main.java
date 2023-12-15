@@ -10,11 +10,11 @@ public class Main {
         Bicycle bicycle2 = new Bicycle("bicycle2", 2);
 
         //ServiceStation station = new ServiceStation();
-        bicycle.check(bicycle);
-        bicycle2.check(bicycle2);
-        car.check(car);
-        car2.check(car2);
-        truck.check(truck);
-        truck2.check(truck2);
+        bicycle.check();
+        bicycle2.check();
+        car.check();
+        car2.check();
+        truck.check();
+        truck2.check();
     }
 }

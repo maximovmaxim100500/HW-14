@@ -4,8 +4,8 @@ public class Car extends Bicycle{
     }
 
     @Override
-    public void check(Transport transport) {
-        super.check(transport);
+    public void check() {
+        super.check();
         ServiceStation.checkEngine();
     }
 }
